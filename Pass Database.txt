@@ -1,1 +1,7 @@
+Supabase 
 password : BtjltKtoNRI2t9Jv
+
+MongoDB
+username: revan
+password: TAI1234tai
+ip adress: (103.100.174.159/32)

@@ -57,45 +57,45 @@ const Profile = () => {
         {/* <img src="..." className="card-img-top" alt="..." /> */}
         <h5></h5>
         <table className="table table-sm table-striped ">
-          {dokter.map((dokter) => (
-            <tbody>
-              <tr>
-                <td className="text-nowrap">Nama</td>
-                <td> : </td>
-                <td>No Data</td>
-              </tr>
-              <tr>
-                <td className="text-nowrap">Tempat Lahir</td>
-                <td>{" : "}</td>
-                <td>
-                  {/* user.tempat*/}
-                  {" No Data "}
-                </td>
-              </tr>
-              <tr>
-                <td className="text-nowrap">Tanggal Lahir</td>
-                <td>{" : "}</td>
-                <td>
-                  {/*formatDate(user.tanggal)*/}
-                  {" No Data "}
-                </td>
-              </tr>
-              <tr>
-                <td className="text-nowrap">No HP</td>
-                <td>{" : "}</td>
-                <td>{" No Data "}</td>
-              </tr>
-              <tr>
-                <td className="text-nowrap">Alamat</td>
-                <td>{" : "}</td>
-                <td>{" No Data "}</td>
-              </tr>
-              <tr>
-                <td className="text-nowrap">Email</td>
-                <td>{" : "}</td>
-                <td>
-                  {" No Data "}
-                  {/* {mhs.disc && mhs.disc.disc_1 ? (
+          {/* {dokter.map((dokter) => ( */}
+          <tbody>
+            <tr>
+              <td className="text-nowrap">Nama</td>
+              <td> : </td>
+              <td>No Data</td>
+            </tr>
+            <tr>
+              <td className="text-nowrap">Tempat Lahir</td>
+              <td>{" : "}</td>
+              <td>
+                {/* user.tempat*/}
+                {" No Data "}
+              </td>
+            </tr>
+            <tr>
+              <td className="text-nowrap">Tanggal Lahir</td>
+              <td>{" : "}</td>
+              <td>
+                {/*formatDate(user.tanggal)*/}
+                {" No Data "}
+              </td>
+            </tr>
+            <tr>
+              <td className="text-nowrap">No HP</td>
+              <td>{" : "}</td>
+              <td>{" No Data "}</td>
+            </tr>
+            <tr>
+              <td className="text-nowrap">Alamat</td>
+              <td>{" : "}</td>
+              <td>{" No Data "}</td>
+            </tr>
+            <tr>
+              <td className="text-nowrap">Email</td>
+              <td>{" : "}</td>
+              <td>
+                {" No Data "}
+                {/* {mhs.disc && mhs.disc.disc_1 ? (
                 <div className="ratio ratio-1x1">
                   <iframe
                     title="disc_1"
@@ -106,10 +106,10 @@ const Profile = () => {
               ) : (
                 "No Data"
               )} */}
-                </td>
-              </tr>
-            </tbody>
-          ))}
+              </td>
+            </tr>
+          </tbody>
+          {/* ))} */}
         </table>
         {/* <div className="btn-group">
         <Link to="/profile-edit" className="btn btn-sm btn-success">
